@@ -35,11 +35,7 @@
     },
     {
       "route": "/login",
-      "rewrite": "/.auth/login/github"
-    },
-    {
-      "route": "/.auth/login/twitter",
-      "statusCode": 404
+      "rewrite": "/.auth/login/aad"
     },
     {
       "route": "/logout",
